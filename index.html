@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Obsidian Threshold – Cosmic-Core Sci-Fi Radio Drama</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An anthology radio drama podcast mining the cosmic core of sci-fi. New transmissions monthly.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="alternate" type="application/rss+xml" title="Obsidian Threshold" href="https://anchor.fm/s/123abc/podcast/rss">
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <img src="assets/ot-logo.svg" alt="Obsidian Threshold" class="logo">
+    <nav>
+      <a href="#episodes">Episodes</a>
+      <a href="#subscribe">Subscribe</a>
+      <a href="#merch">Merch</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Cross the Threshold.</h1>
+    <p>An anthology radio drama podcast that drills to the cosmic core of science-fiction. Each month a new standalone story—immersive sound design, original score, and voices from across the multiverse.</p>
+    <a href="#episodes" class="btn">Listen Now</a>
+  </div>
+</section>
+
+<section id="episodes" class="episodes">
+  <div class="container">
+    <h2>Latest Transmissions</h2>
+    <div class="episode-card">
+      <img src="assets/cover-art.png" alt="Episode cover">
+      <div class="info">
+        <h3>Episode 06 – “The Androgynous Signal”</h3>
+        <p>A deep-space relay station intercepts a transmission that rewrites the listener’s gender identity in real time.</p>
+        <audio controls preload="metadata">
+          <source src="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/123/123abc.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <div class="links">
+          <a href="https://open.spotify.com/show/xyz" target="_blank">Spotify</a>
+          <a href="https://podcasts.apple.com/us/podcast/id123" target="_blank">Apple</a>
+          <a href="https://pca.st/xyz" target="_blank">Pocket Casts</a>
+        </div>
+      </div>
+    </div>
+    <!-- copy block for each new episode -->
+  </div>
+</section>
+
+<section id="subscribe" class="subscribe">
+  <div class="container">
+    <h2>Never Miss a Signal</h2>
+    <form name="newsletter" netlify>
+      <input type="email" name="email" placeholder="your@email.com" required>
+      <button type="submit" class="btn">Subscribe</button>
+    </form>
+    <div class="badges">
+      <a href="https://open.spotify.com/show/xyz" target="_blank"><img src="https://storage.googleapis.com/pr-newsroom/1/2020/01/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify"></a>
+      <a href="https://podcasts.apple.com/us/podcast/id123" target="_blank"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-podcasts/badge/en-us.svg" alt="Apple"></a>
+      <a href="https://anchor.fm/obsidian-threshold" target="_blank"><img src="https://anchor.fm/assets/press/anchor-badge.png" alt="Anchor"></a>
+    </div>
+  </div>
+</section>
+
+<section id="merch" class="merch">
+  <div class="container">
+    <h2>Support the Show</h2>
+    <p>Grab a limited-edition T-shirt or enamel pin and flex your cosmic-core credentials.</p>
+    <a href="https://www.etsy.com/shop/YourShop" target="_blank" class="btn">Visit Merch Store</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© <span id="year"></span> Obsidian Threshold Media. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
